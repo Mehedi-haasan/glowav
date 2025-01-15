@@ -103,7 +103,7 @@ const Expert = ({ text,ml }) => {
                 </div>
             </div>
 
-            <div className={`${ml ? 'pl-5 md:pl-10 lg:pl-28 xl:pl-44 2xl:pl-[300px]': 'px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]'}`}>
+            <div className={`${ml ? 'pl-2 md:pl-10 lg:pl-28 xl:pl-44 2xl:pl-[300px]': 'px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]'}`}>
 
                 <Slider {...settings} ref={sliderRef}>
                     {clients.map((client, index) => {
