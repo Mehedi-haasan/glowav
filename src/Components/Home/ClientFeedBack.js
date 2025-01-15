@@ -2,7 +2,7 @@ import glov from '../Assets/Image/glov.png'
 
 const ClientFeedBack = () => {
     return (
-        <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] ">
+        <div className="px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] ">
             <div className="py-5 lg:py-10 bg-[#FFFFFF]  px-7">
 
                 <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-[#262626] text-center py-2 md:py-6 lg:py-12 font-mollie">Our Story</h1>
