@@ -1,6 +1,6 @@
 import image from '../Assets/Image/Frame 1948755908.png'
 const Percent = () => {
-    return <div className='px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] py-16'>
+    return <div className='px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] py-16'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-0'>
             <div>
                 <img src={image} alt='sfgdg' className='w-full h-[620px] rounded-xl md:rounded-l-xl' />
