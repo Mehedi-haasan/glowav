@@ -7,11 +7,11 @@ const WhyChoose = () => {
         width: '72px'
     }
 
-    return <div className="py-16 bg-[#FDFCF5] px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-center text-[#262626] font-mollie mb-8">Why Choose Our product</h1>
+    return <div className="py-4 md:py-8 lg:py-16 bg-[#FDFCF5] px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-center text-[#262626] font-mollie mb-4 lg:mb-8">Why Choose Our product</h1>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 py-5 lg:py-10">
             <div className="border border-[#45726C80] rounded md:p-4 lg:p-6 xl:p-10">
                 <div className="flex justify-start items-start  gap-2 lg:gap-4 p-2 lg:p-3">
                     <div className="rounded-full bg-[#45726C] flex justify-center items-center w-[60px] lg:h-[72px] lg:w-[72px]" style={size}>

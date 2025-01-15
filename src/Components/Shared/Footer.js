@@ -74,18 +74,24 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className=" border-t-[1px] border-[#45726C]">
-                <div className="flex justify-between items-center py-5 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
-                    <h1>@Glowave 2025. All Rights Reserved</h1>
-                    <div className="flex justify-end items-center gap-4">
-                        <NavLink to={`/`}>Privacy Policy</NavLink>
-                        <div className="border border-[#D4D4D4] h-7" />
-                        <NavLink to={`/`}>Terms of Use</NavLink>
-                        <div className="border border-[#D4D4D4] h-7" />
-                        <NavLink to={`/`}>Sales and Refunds</NavLink>
-                        <div className="border border-[#D4D4D4] h-7" />
-                        <NavLink to={`/`}>Legal</NavLink>
+            <div className="border-t-[1px] border-[#45726C]">
+                <div className="lg:flex justify-between items-center gap-4 py-5 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+                    <h1 className="text-center hidden lg:block">@Glowave 2025. All Rights Reserved</h1>
+                    <div className="lg:flex">
+                        <div className="flex justify-center lg:justify-end items-center gap-4">
+                            <NavLink to={`/`}>Privacy Policy</NavLink>
+                            <div className="border border-[#D4D4D4] h-5" />
+                            <NavLink to={`/`}>Terms of Use</NavLink>
+                        </div>
+
+                        <div className="flex justify-center lg:justify-end items-center gap-4">
+                            <div className="border border-[#D4D4D4] h-5 hidden lg:block ml-3" />
+                            <NavLink to={`/`}>Sales and Refunds</NavLink>
+                            <div className="border border-[#D4D4D4] h-5" />
+                            <NavLink to={`/`}>Legal</NavLink>
+                        </div>
                     </div>
+                    <h1 className="lg:hidden text-center">@Glowave 2025. All Rights Reserved</h1>
                 </div>
             </div>
 

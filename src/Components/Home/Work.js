@@ -8,17 +8,17 @@ const Work = () => {
 
             <div className="flex justify-evenly items-center">
                 <div className="relative max-w-[329px]">
-                    <p className="absolute -right-4 -top-3 text-3xl">10</p>
+                    <p className="absolute -right-4 -top-3 text-lg lg:text-3xl">10</p>
                     <h1 className="text-[#1C1C1C] text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie">Cleansers</h1>
                 </div>
 
                 <div className="relative max-w-[405px]">
-                    <p className="absolute -right-4 -top-3 text-3xl">16</p>
+                    <p className="absolute -right-4 -top-3 text-lg lg:text-3xl">16</p>
                     <h1 className="text-[#1C1C1C] text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie">Moisturizers</h1>
                 </div>
 
                 <div className="relative max-w-[231px]">
-                    <p className="absolute -right-4 -top-3 text-3xl">23</p>
+                    <p className="absolute -right-4 -top-3 text-lg lg:text-3xl">23</p>
                     <h1 className="text-[#1C1C1C] text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie">Masks</h1>
                 </div>
 
@@ -26,9 +26,9 @@ const Work = () => {
             </div>
 
 
-            <div className="flex justify-evenly items-center py-8 mt-8">
+            <div className="flex justify-evenly items-center py-8 lg:mt-8">
 
-                <div className="relative max-w-[392px] bg-cover bg-center " >
+                <div className="relative max-w-[392px] bg-cover bg-center hidden lg:block" >
                     <div className="mt-2"
                         style={{
                             backgroundImage: `url(${image})`,
@@ -43,7 +43,7 @@ const Work = () => {
                             left: '50%',
                         }}
                     >
-                        <p className="absolute right-[70px] -top-[68px] text-3xl z-40 -rotate-[40deg]">54</p>
+                        <p className="absolute right-[70px] -top-[68px] text-lg lg:text-3xl z-40 -rotate-[40deg]">54</p>
                         <h1 className="pt-12 text-[#45726C] text-2xl md:text-3xl -rotate-[40deg] lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie z-40">Sunscreens</h1>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Work = () => {
 
 
                 <div className="relative max-w-[275px]">
-                    <p className="absolute -right-4 -top-3 text-3xl">34</p>
+                    <p className="absolute -right-4 -top-3 text-lg lg:text-3xl">34</p>
                     <h1 className="text-[#1C1C1C] text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie">Serums</h1>
                 </div>
 
