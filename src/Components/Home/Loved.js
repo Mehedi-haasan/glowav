@@ -100,7 +100,7 @@ const Loved = () => {
 
 
 
-        <div className="py-5 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+        <div className="py-2 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
             <Slider {...settings} ref={sliderRef}>
                 {clients.map((client, index) => {
                     return (
