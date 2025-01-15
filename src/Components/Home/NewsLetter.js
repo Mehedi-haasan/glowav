@@ -2,7 +2,7 @@ import news from '../Assets/Image/news.jpg';
 
 const NewsLetter = () => {
     return (
-        <div className=' py-16 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]'>
+        <div className=' py-16 px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]'>
             <div className='relative '>
                 <svg width="203" height="131" className='absolute -right-4 top-10 -rotate-[15deg]' viewBox="0 0 203 131" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g>
