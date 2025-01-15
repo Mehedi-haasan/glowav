@@ -17,8 +17,8 @@ const ClientFeedBack = () => {
 
                 <div className="flex justify-center items-center">
                 <div className="flex justify-start items-center gap-5 pt-6">
-                    <button className="bg-[#45726C] leading-[23px] px-6 py-4 rounded-full text-[#FFFFFF]">Learn More</button>
-                    <button className="leading-[23px] px-6 py-4 rounded-full border flex justify-start items-center gap-2">See All Product</button>
+                    <button className="bg-[#45726C] leading-[23px] px-3 py-1.5 md:px-6 md:py-4 rounded-full text-[#FFFFFF]">Learn More</button>
+                    <button className="leading-[23px] px-3 py-1.5 md:px-6 md:py-4 rounded-full border flex justify-start items-center gap-2">See All Product</button>
                 </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ const Accordion = () => {
             {accordionData.map((item, index) => (
                 <div key={item.id} className="bg-[#F9F9F9] rounded-lg m-2 px-3">
                     <button onClick={() => toggleAccordion(index)} className="w-full flex justify-between items-center py-5 text-slate-800">
-                        <span className="text-[24px] leading-[28px]">{item.title}</span>
+                        <span className="text-[18px] lg:text-[24px] leading-[28px]">{item.title}</span>
                         <span className={`text-slate-800 transition-transform duration-300 ${activeIndex === index ? "rotate-180" : ""}`}>
                             {activeIndex === index ? (
                                 <svg

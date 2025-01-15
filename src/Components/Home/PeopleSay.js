@@ -86,8 +86,8 @@ const PeopleSay = () => {
         <div className="py-5">
             <Slider {...settings}>
                 {clients.map((client) => (
-                    <div className="mx-5">
-                        <div className=" p-5 w-[380px]">
+                    <div className="lg:mx-5">
+                        <div className="lg:p-5 w-[380px] mx-auto">
                             <div className="h-[60px] w-[60px] rounded-full mx-auto">
                                 <img
                                     src={client.image}

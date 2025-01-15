@@ -16,10 +16,10 @@ const NewsLetter = () => {
                         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] font-mollie">Join Our newsletter</h1>
                         <h1 className='py-5 max-w-[500px] px-5 text-center'>Sign up for our newsletter to receive exclusive access to the latest skincare tips, product launches, and special promotions.</h1>
 
-                        <div className='bg-white rounded-full z-40 max-w-[600px] h-[80px] opacity-100'>
-                            <div className='bg-white rounded-full z-40 max-w-[600px] h-[80px] opacity-100 flex justify-between items-center px-4'>
-                                <h1 className='text-[#787878]'>Enter Your email here</h1>
-                                <button className="bg-[#45726C] leading-[23px] px-3 py-1.5 lg:px-6 lg:py-4 rounded-full text-[#FFFFFF]">See All Product</button>
+                        <div className='bg-white rounded-full z-40 max-w-[600px] h-[60px] lg:h-[80px] opacity-100'>
+                            <div className='bg-white rounded-full z-40 min-w-[300px] max-w-[600px] h-[60px] lg:h-[80px] opacity-100 flex justify-between items-center px-2 lg:px-4'>
+                                <h1 className='text-[#787878] text-sm md:text-md lg:text-lg'>Enter Your email here</h1>
+                                <button className="bg-[#45726C] text-sm md:text-md lg:text-lg px-3 py-1.5 lg:px-6 lg:py-4 rounded-full text-[#FFFFFF]">See All Product</button>
                             </div>
                         </div>
                     </div>
