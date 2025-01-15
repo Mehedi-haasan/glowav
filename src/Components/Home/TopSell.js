@@ -61,7 +61,7 @@ const TopSell = () => {
             price:'32'
         }
     ]
-    return <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+    return <div className="px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
         <div className="flex justify-between items-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-[#262626] text-center py-12 font-mollie">Top Selling Product</h1>
             <button className="bg-[#45726C] leading-[23px] px-3 py-1.5 md:px-6 md:py-4 rounded-full text-[#FFFFFF]">Learn More</button>
