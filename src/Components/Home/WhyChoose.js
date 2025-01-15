@@ -7,7 +7,7 @@ const WhyChoose = () => {
         width: '72px'
     }
 
-    return <div className="py-4 md:py-8 lg:py-16 bg-[#FDFCF5] px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+    return <div className="py-4 md:py-8 lg:py-16 bg-[#FDFCF5] px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-center text-[#262626] font-mollie mb-4 lg:mb-8">Why Choose Our product</h1>
 
 
