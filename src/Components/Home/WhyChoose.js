@@ -12,7 +12,7 @@ const WhyChoose = () => {
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10">
-            <div className="border border-[#45726C80] rounded p-10">
+            <div className="border border-[#45726C80] rounded p-4 lg:p-10">
                 <div className="flex justify-between items-start gap-6 p-5">
                     <div className="rounded-full bg-[#45726C] flex justify-center items-center" style={size}>
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@ const WhyChoose = () => {
                 </div>
             </div>
             <div className="flex justify-end">
-                <img src={image} alt="sdjkfg" className="max-h-[565px] max-w-[536px]" />
+                <img src={image} alt="sdjkfg" className="max-h-[565px] w-[336px] lg:w-[536px]" />
             </div>
         </div>
     </div>

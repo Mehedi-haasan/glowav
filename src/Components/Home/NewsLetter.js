@@ -19,7 +19,7 @@ const NewsLetter = () => {
                         <div className='bg-white rounded-full z-40 max-w-[600px] h-[80px] opacity-100'>
                             <div className='bg-white rounded-full z-40 max-w-[600px] h-[80px] opacity-100 flex justify-between items-center px-4'>
                                 <h1 className='text-[#787878]'>Enter Your email here</h1>
-                                <button className="bg-[#45726C] leading-[23px] px-6 py-4 rounded-full text-[#FFFFFF]">See All Product</button>
+                                <button className="bg-[#45726C] leading-[23px] px-3 py-1.5 lg:px-6 lg:py-4 rounded-full text-[#FFFFFF]">See All Product</button>
                             </div>
                         </div>
                     </div>
