@@ -78,7 +78,7 @@ const PeopleSay = () => {
             },
         ],
     };
-    return <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] py-14">
+    return <div className="px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] py-14">
         <h1 className="text-center py-5">Testimonials</h1>
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-center text-[#262626] font-mollie">What People Saying</h1>
 
