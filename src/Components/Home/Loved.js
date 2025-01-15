@@ -92,7 +92,7 @@ const Loved = () => {
     }
 
     return <div className="py-16 bg-[#FCFAF0] relative">
-        <h1 className="text-center py-4">Video Review</h1>
+        <h1 className="text-center py-4 font-lato text-[24px] leading-[28px]">Video Review</h1>
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-center text-[#262626] font-mollie">Loved by Influencers </h1>
         <img src={right} alt='rgkjoi' className='absolute top-0 right-0 w-[376px] h-[436px]' />
         <img src={left} alt='rgkjoi' className='absolute left-0 bottom-0 w-[376px] h-[436px]' />

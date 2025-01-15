@@ -21,16 +21,16 @@ function Header() {
                     <div className=' hidden md:block'>
                         <div className='flex justify-between items-center gap-6 text-[18px] leading-[22px] text-[#000000]'>
                             <div>
-                                <NavLink to={`/`}>About</NavLink>
+                                <NavLink to={`/glowav`}>About</NavLink>
                             </div>
                             <div>
-                                <NavLink to={`/`}>Product</NavLink>
+                                <NavLink to={`/glowav`}>Product</NavLink>
                             </div>
                             <div>
-                                <NavLink to={`/`}>Contact</NavLink>
+                                <NavLink to={`/glowav`}>Contact</NavLink>
                             </div>
                             <div>
-                                <NavLink to={`/`}>Skincare Blog</NavLink>
+                                <NavLink to={`/glowav`}>Skincare Blog</NavLink>
                             </div>
                         </div>
                     </div>

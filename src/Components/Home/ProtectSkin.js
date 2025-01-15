@@ -55,7 +55,7 @@ const ProtectSkin = () => {
     return <div className="py-16">
         <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
             <div className="flex justify-between items-center py-5">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-[#262626] font-mollie">We Protect Your Skin</h1>
+                <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-[#262626] font-mollie pb-6 lg:pb-10">We Protect Your Skin</h1>
                 <div className="flex justify-end items-center gap-4">
                     <svg width="56" height="56" onClick={prevState} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.7177 33.2806L23.7954 39.4679C24.2123 39.8913 24.8914 39.8978 25.3148 39.4808C25.7382 39.0639 25.7446 38.3848 25.3277 37.9593L19.2435 31.7655C18.8417 31.3636 18.2807 30.749 17.7069 30.1021C17.4254 29.784 17.2255 29.4229 17.0923 29.0426L39.4517 29.0426C40.0449 29.0426 40.5263 28.5612 40.5263 27.968C40.5263 27.3748 40.0449 26.8934 39.4517 26.8934L17.0923 26.8934C17.2277 26.513 17.4254 26.152 17.7091 25.8339C18.2807 25.187 18.8417 24.5724 19.25 24.164L25.3277 17.9767C25.7446 17.5533 25.7382 16.8721 25.3148 16.4551C25.1042 16.251 24.8334 16.1478 24.5605 16.1478C24.2832 16.1478 24.0039 16.2553 23.7954 16.468L17.7241 22.6489C17.2986 23.0744 16.7033 23.7235 16.0994 24.4069C14.3006 26.4357 14.3006 29.496 16.0994 31.5248C16.7054 32.2082 17.3007 32.8594 17.7177 33.2763L17.7177 33.2806Z" fill="#9E9E9E" />
@@ -73,7 +73,7 @@ const ProtectSkin = () => {
             </div>
         </div>
         <div>
-            <div className="slider-container">
+            <div className="">
                 <Slider {...settings} ref={sliderRef}>
                     <div className="mx-2">
                         <img src={care} alt="gkdhf" className="h-[400px] w-full px-2" />
