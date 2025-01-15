@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Mollie Glaston';
+  src: url('./Components/Assets/Font/Mollie-Glaston.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

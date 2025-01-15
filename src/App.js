@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<MainOne />} />
+          <Route path="/glowav" element={<MainOne />} />
         </Routes>
         <Footer />
       </BrowserRouter>
