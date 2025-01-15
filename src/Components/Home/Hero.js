@@ -3,7 +3,7 @@ import lotion from "../Assets/Image/lotion.png"
 
 const Hero = () => {
     return (
-        <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] bg-gradient-to-br from-[#F7E6D9] via-white to-[#F9F1CE80]" >
+        <div className="px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] bg-gradient-to-br from-[#F7E6D9] via-white to-[#F9F1CE80]" >
             <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-8">
                 <div className="">
                     <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-mollie leading-[70px] lg:leading-[108px] text-[#262626]">Bring Out Your Skin's</h1>
