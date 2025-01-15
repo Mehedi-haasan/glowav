@@ -2,7 +2,7 @@ const Work = () => {
     let image = 'https://s3-alpha-sig.figma.com/img/dff8/8fc7/63111de24f9780c84f50ba64bd3a2b2f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADrTYbo1n0z3HFkC5XjueykO-0t3TPVjicqWObg1E1bZ~BHIGFJQvtNfyei6WHABTpd04khHlDjALLXT14LsB~UKYv1nX0l3P10Pmk8ikk91-73y41HN5sAl8JcM3xmlh48fwxq-LYaQtGvcmOOdee56iuc6xOQOdhqKaMX85jq87QjEXTIGdeTEN5iqSlk3MgPO27kPfuv-FIZe2k~pbCBcbq7PrPqcyjT-Dqyla4vTJm61w7FlaYEnhKRlfpn3wzRw3SzKHMs1minKE0cMEm8aft-zju~xkTP9VQc3A~0KdOcEejzqPNLql5tbpTGlEetYEt~EM-iA~9BCZi24ag__'
 
     return (
-        <div className="bg-white p-16 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+        <div className="bg-white p-16 px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
             <h1 className="text-center py-8 text-[24px] leading-[28px] font-lato">Product Category</h1>
 
 
