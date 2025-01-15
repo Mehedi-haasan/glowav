@@ -53,7 +53,7 @@ const ProtectSkin = () => {
         sliderRef.current.slickPrev();
     }
     return <div className="py-4 md:py-8 lg:py-16">
-        <div className="px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
+        <div className="px-2 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
             <div className="flex justify-between items-center py-5 pb-6 lg:pb-10">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[108px] text-[#262626] font-mollie">We Protect Your Skin</h1>
                 <div className="flex justify-end items-center gap-4">
