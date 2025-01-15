@@ -8,7 +8,7 @@ function Header() {
         visibility: 'visible',
     }
     return (
-        <header className='w-full sticky top-0 left-0 right-0 bg-white z-50'>
+        <header className='w-full sticky top-2 left-0 right-0 bg-white z-50'>
             <div className='px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]'>
                 <div className='flex justify-between items-center w-full h-[60px] lg:h-[100px]'>
                     <div className='flex justify-start'>
