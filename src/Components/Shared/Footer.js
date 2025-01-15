@@ -41,7 +41,7 @@ const Footer = () => {
 
                 </div>
                 <div className="flex flex-col">
-                    <h1 className="font-semibold text-2xl leading-[40px]">Quick NavLinks</h1>
+                    <h1 className="font-semibold text-2xl leading-[40px]">Quick Links</h1>
                     <NavLink to={`/`} className="pt-2">Shop</NavLink>
                     <NavLink to={`/`} className="pt-2">About Us</NavLink>
                     <NavLink to={`/`} className="pt-2">Skincare Blog</NavLink>
@@ -65,6 +65,14 @@ const Footer = () => {
                     <NavLink to={`/`} className="pt-2">Shipping & Returns</NavLink>
                 </div>
 
+            </div>
+            <div className="flex justify-end relative px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px] pb-3 lg:pb-5">
+                <div className="h-[56px] w-[56px] bg-[#45726C] flex justify-center items-center">
+                    <svg width="25" height="37" viewBox="0 0 25 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9999 37L11.9999 37L12.1691 5C10.2795 14.5 3.63673 16.786 1.89146e-05 17L1.90656e-05 15.2729C3.65609 15.0576 11.294 11.7313 12.1691 -1.12171e-06L12.5 0.0247639L12.9999 -1.04907e-06C13.875 11.7313 21.3439 14.7846 24.9999 15L24.9999 17C21.5133 16.7948 14.9235 14.3841 12.9999 5L12.9999 37Z" fill="white" />
+                    </svg>
+
+                </div>
             </div>
             <div className=" border-t-[1px] border-[#45726C]">
                 <div className="flex justify-between items-center py-5 px-5 md:px-10 lg:px-28 xl:px-44 2xl:px-[300px]">
