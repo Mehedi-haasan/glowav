@@ -10,7 +10,7 @@ const Hero = () => {
                     <div className="flex justify-start items-center gap-3 font-mollie py-3" >
                         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] leading-[70px] lg:leading-[108px] text-[#262626]">Natural Glow</h1>
                         <img src={lotion}
-                            alt="egfuw" className="2xl:w-[170px] 2xl:h-[104px]"
+                            alt="egfuw" className="w-[120px] 2xl:w-[170px] h-[74px] 2xl:h-[104px]"
                         />
                     </div>
                     <h1 className="py-4 lg:py-6 text-[#6F6F6F]">Discover the beauty of healthy, radiant skin with our carefully <br /> crafted skincare solutions.</h1>
